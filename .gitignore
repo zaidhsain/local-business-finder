@@ -1,0 +1,14 @@
+# Environnements
+.venv/
+__pycache__/
+*.pyc
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Base de données & logs
+data/*.db
+logs/*.log
+
+# Variables d'environnement
+.env
