@@ -12,3 +12,4 @@ logs/*.log
 
 # Variables d'environnement
 .env
+settings.py
