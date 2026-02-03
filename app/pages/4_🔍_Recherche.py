@@ -15,265 +15,100 @@ st.set_page_config(
 )
 
 # CSS moderne avec illustrations
+
 st.markdown("""
 <style>
-    /* Fond dégradé moderne */
-    .stApp {
-        background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
-        background-attachment: fixed;
-    }
-    
-    /* Header avec icône 3D */
-    .header-container {
-        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-        padding: 3rem 2rem;
-        border-radius: 25px;
-        margin-bottom: 2.5rem;
-        box-shadow: 0 15px 50px rgba(102, 126, 234, 0.4);
-        text-align: center;
-        position: relative;
-        overflow: hidden;
-    }
-    
-    .header-container::before {
-        content: "";
-        position: absolute;
-        top: -50%;
-        right: -10%;
-        width: 400px;
-        height: 400px;
-        background: radial-gradient(circle, rgba(255,255,255,0.2) 0%, transparent 70%);
-        border-radius: 50%;
-    }
-    
-    .header-content {
-        position: relative;
-        z-index: 1;
-    }
-    
-    .header-icon {
-        font-size: 5rem;
-        margin-bottom: 1.5rem;
-        display: inline-block;
-        animation: pulse 2s infinite;
-        filter: drop-shadow(0 10px 30px rgba(0, 0, 0, 0.3));
-    }
-    
-    @keyframes pulse {
-        0%, 100% { transform: scale(1); }
-        50% { transform: scale(1.1); }
-    }
-    
-    .header-title {
-        color: white;
-        font-size: 3rem;
-        font-weight: 900;
-        margin: 0;
-        text-shadow: 2px 2px 8px rgba(0,0,0,0.2);
-    }
-    
-    .header-subtitle {
-        color: rgba(255, 255, 255, 0.95);
-        font-size: 1.3rem;
-        margin-top: 1rem;
-    }
-    
-    /* Cards pour les inputs */
-    .input-card {
-        background: white;
-        padding: 2rem;
-        border-radius: 20px;
-        box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
-        margin-bottom: 1.5rem;
-        transition: all 0.3s ease;
-    }
-    
-    .input-card:hover {
-        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
-        transform: translateY(-3px);
-    }
-    
-    .card-header {
-        display: flex;
-        align-items: center;
-        margin-bottom: 1.5rem;
-        padding-bottom: 1rem;
-        border-bottom: 2px solid #f3f4f6;
-    }
-    
-    .card-icon {
-        width: 50px;
-        height: 50px;
-        border-radius: 15px;
-        background: linear-gradient(135deg, #667eea15 0%, #764ba215 100%);
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-size: 2rem;
-        margin-right: 1rem;
-    }
-    
-    .card-title {
-        font-size: 1.5rem;
-        font-weight: 700;
-        color: #1f2937;
-    }
-    
-    /* Stats cards améliorées */
-    .stats-container {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-        gap: 1.5rem;
-        margin: 2.5rem 0;
-    }
-    
-    .stat-card {
-        background: white;
-        padding: 2rem;
-        border-radius: 20px;
-        text-align: center;
-        box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
-        transition: all 0.3s ease;
-        border-top: 4px solid transparent;
-    }
-    
-    .stat-card:hover {
-        transform: translateY(-8px);
-        box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
-    }
-    
-    .stat-card:nth-child(1) { border-top-color: #10b981; }
-    .stat-card:nth-child(2) { border-top-color: #667eea; }
-    .stat-card:nth-child(3) { border-top-color: #f59e0b; }
-    .stat-card:nth-child(4) { border-top-color: #ef4444; }
-    
-    .stat-icon {
-        font-size: 3rem;
-        margin-bottom: 1rem;
-        display: block;
-    }
-    
-    .stat-value {
-        font-size: 2.5rem;
-        font-weight: 900;
-        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        background-clip: text;
-        display: block;
-        margin: 0.5rem 0;
-    }
-    
-    .stat-label {
-        color: #6b7280;
-        font-size: 0.95rem;
-        font-weight: 600;
-        margin-top: 0.5rem;
-    }
-    
-    /* Bouton principal spectaculaire */
-    .stButton > button {
-        width: 100%;
-        background: linear-gradient(135deg, #10b981 0%, #059669 100%);
-        color: white;
-        border: none;
-        border-radius: 15px;
-        padding: 1.5rem 2.5rem;
-        font-size: 1.3rem;
-        font-weight: 700;
-        cursor: pointer;
-        transition: all 0.3s ease;
-        box-shadow: 0 10px 30px rgba(16, 185, 129, 0.4);
-        text-transform: uppercase;
-        letter-spacing: 1px;
-    }
-    
-    .stButton > button:hover {
-        transform: translateY(-5px);
-        box-shadow: 0 20px 50px rgba(16, 185, 129, 0.5);
-    }
-    
-    /* Inputs stylisés */
-    .stTextInput input, .stSelectbox select {
-        border: 2px solid #e5e7eb !important;
-        border-radius: 12px !important;
-        padding: 1rem !important;
-        font-size: 1rem !important;
-        transition: all 0.3s ease !important;
-    }
-    
-    .stTextInput input:focus, .stSelectbox select:focus {
-        border-color: #667eea !important;
-        box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1) !important;
-    }
-    
-    /* Slider stylisé */
-    .stSlider {
-        padding: 1rem 0;
-    }
-    
-    /* Section info */
-    .info-section {
-        background: white;
-        padding: 2.5rem;
-        border-radius: 20px;
-        box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
-        margin-top: 3rem;
-    }
-    
-    .info-grid {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-        gap: 2rem;
-        margin-top: 1.5rem;
-    }
-    
-    .info-item {
-        padding: 1.5rem;
-        background: linear-gradient(135deg, #667eea05 0%, #764ba205 100%);
-        border-radius: 15px;
-        border-left: 4px solid #667eea;
-    }
-    
-    .info-number {
-        font-size: 2rem;
-        font-weight: 900;
-        color: #667eea;
-        margin-bottom: 0.5rem;
-    }
-    
-    .info-title {
-        font-weight: 700;
-        color: #1f2937;
-        font-size: 1.1rem;
-        margin-bottom: 0.5rem;
-    }
-    
-    .info-text {
-        color: #6b7280;
-        font-size: 0.95rem;
-        line-height: 1.6;
-    }
-    
-    /* Success message */
-    .success-box {
-        background: linear-gradient(135deg, #10b98120 0%, #05966920 100%);
-        border: 2px solid #10b981;
-        border-radius: 15px;
-        padding: 1.5rem;
-        margin: 1.5rem 0;
-        color: #047857;
-        font-weight: 600;
-    }
-    
-    /* Table styling */
-    .dataframe {
-        border-radius: 15px !important;
-        overflow: hidden !important;
-        box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1) !important;
-    }
+/* ==============================
+   CORRECTION LISIBILITÉ GLOBALE
+   ============================== */
+
+/* Texte global */
+html, body, [class*="css"] {
+    color: #111827 !important; /* quasi noir */
+}
+
+/* Fond principal */
+.stApp {
+    background: linear-gradient(135deg, #f9fafb 0%, #e5e7eb 100%);
+}
+
+/* Titres */
+h1, h2, h3, h4, h5, h6 {
+    color: #111827 !important;
+}
+
+/* Paragraphes & labels */
+p, label, span, li {
+    color: #1f2937 !important;
+}
+
+/* Inputs */
+.stTextInput input,
+.stSelectbox select,
+.stTextArea textarea {
+    background-color: #ffffff !important;
+    color: #111827 !important;
+    border: 2px solid #d1d5db !important;
+}
+
+/* Placeholder */
+.stTextInput input::placeholder {
+    color: #6b7280 !important;
+}
+
+/* Slider */
+.stSlider label {
+    color: #111827 !important;
+}
+
+/* DataFrame */
+[data-testid="stDataFrame"] {
+    background-color: white !important;
+}
+
+[data-testid="stDataFrame"] th {
+    background-color: #f3f4f6 !important;
+    color: #111827 !important;
+    font-weight: 700;
+}
+
+[data-testid="stDataFrame"] td {
+    color: #111827 !important;
+}
+
+/* Messages Streamlit */
+.stAlert {
+    color: #111827 !important;
+}
+
+/* Warning / error / success */
+.stAlert p {
+    color: #111827 !important;
+}
+
+/* Boutons */
+.stButton > button {
+    color: white !important;
+}
+
+/* Card titles */
+.card-title,
+.info-title {
+    color: #111827 !important;
+}
+
+/* Stats labels */
+.stat-label {
+    color: #374151 !important;
+}
+
+/* Info text */
+.info-text {
+    color: #374151 !important;
+}
 </style>
 """, unsafe_allow_html=True)
+
 
 # Vérification connexion
 if "logged_in" not in st.session_state or not st.session_state.logged_in:
