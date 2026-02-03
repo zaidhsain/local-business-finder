@@ -7,6 +7,12 @@ import pandas as pd
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..')))
 
 from services.crud import get_all_business, update_business, delete_business
+import streamlit as st
+
+if "logged_in" not in st.session_state or not st.session_state.logged_in:
+    st.warning("🔐 Veuillez vous connecter pour accéder à cette page.")
+    st.stop()  # Arrête le reste de la page
+
 
 st.title("📊 Dashboard des leads")
 
