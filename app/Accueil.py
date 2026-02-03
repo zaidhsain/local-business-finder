@@ -7,12 +7,12 @@ import pandas as pd
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
 from config.settings import APP_NAME, APP_VERSION
-from services.database import create_table
+from services.database import create_tables
 from services.crud import get_all_business
 from services.discovery import search_local_business_full
 
 # Initialisation DB (si nécessaire)
-create_table()
+create_tables()
 
 # Configuration page Streamlit
 st.set_page_config(
