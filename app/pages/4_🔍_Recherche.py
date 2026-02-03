@@ -303,6 +303,7 @@ with col1:
         </div>
     </div>
     """, unsafe_allow_html=True)
+    st.markdown('<p style="color: #1f2937; font-weight: 600; margin-bottom: 0.5rem; font-size: 1rem;">🔍 Que recherchez-vous ?</p>', unsafe_allow_html=True)
     query = st.text_input(
         "Rechercher",
         placeholder="Ex: Restaurant, Coiffeur, Plombier, Agence immobilière...",
@@ -319,6 +320,7 @@ with col2:
         </div>
     </div>
     """, unsafe_allow_html=True)
+    st.markdown('<p style="color: #1f2937; font-weight: 600; margin-bottom: 0.5rem; font-size: 1rem;">📍 Dans quelle ville ?</p>', unsafe_allow_html=True)
     city = st.text_input(
         "Ville",
         placeholder="Ex: Paris, Lyon, Marseille, Toulouse...",
@@ -342,7 +344,7 @@ max_results = st.slider(
     value=10,
     label_visibility="collapsed"
 )
-st.info(f"📊 Vous allez rechercher **{max_results} businesses** maximum")
+st.markdown(f'<p style="background: #e0e7ff; border-left: 4px solid #667eea; padding: 1rem; border-radius: 8px; color: #1f2937; font-weight: 600; margin: 1rem 0;">📊 Vous allez rechercher <strong style="color: #667eea;">{max_results} businesses</strong> maximum</p>', unsafe_allow_html=True)
 
 # Bouton de recherche
 col1, col2, col3 = st.columns([1, 2, 1])
