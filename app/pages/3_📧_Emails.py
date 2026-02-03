@@ -5,7 +5,7 @@ import pandas as pd
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
 from services.crud import get_all_business
-from services.email_generator import generate_email
+from services.email_generator import generate_email_content
 from services.email_sender import send_email
 
 st.title("📧 Campaign Manager")
@@ -23,7 +23,9 @@ selected_idx = st.selectbox("Sélectionnez un lead pour envoyer un email", df_em
 # Générer email
 if st.button("✍️ Générer email IA"):
     lead = df_emails.loc[selected_idx]
-    subject, body = generate_email(lead['name'], lead['category'])
+    email_content = generate_email_content(lead['name'], lead['category'])
+    subject = email_content["subject"]
+    body = email_content["body"]
     st.write("Objet :", subject)
     st.write("Contenu :", body)
 
