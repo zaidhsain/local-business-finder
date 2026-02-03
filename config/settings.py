@@ -17,3 +17,10 @@ GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
 # Paths
 DB_PATH = "data/leads_database.db"
 LOG_PATH = "logs/app.log"
+# app/config/settings.py
+
+# SMTP Email
+EMAIL_HOST = "smtp.gmail.com"  # ou smtp.brevo.com
+EMAIL_PORT = 587
+EMAIL_USER = "zaidhsain2@gmail.com"
+EMAIL_PASS = "Temara2005"
