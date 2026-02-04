@@ -381,4 +381,4 @@ if not st.session_state.logged_in:
     
 else:
     # Rediriger vers la page principale
-    st.switch_page("pages/1_🔍_Recherche.py")
+    st.switch_page("pages/4_🔍_Recherche.py")

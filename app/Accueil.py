@@ -730,7 +730,7 @@ else:
         </div>
         """, unsafe_allow_html=True)
         if st.button("🚀 Démarrer", key="search_btn", use_container_width=True):
-            st.switch_page("pages/1_🔍_Recherche.py")
+            st.switch_page("pages/4_🔍_Recherche.py")
     
     with col2:
         st.markdown("""
@@ -764,7 +764,7 @@ else:
         </div>
         """, unsafe_allow_html=True)
         if st.button("✉️ Créer", key="campaign_btn", use_container_width=True):
-            st.switch_page("pages/3_📧_Campagnes.py")
+            st.switch_page("pages/3_📧_Emails.py")
     
     st.markdown('</div></div>', unsafe_allow_html=True)
     

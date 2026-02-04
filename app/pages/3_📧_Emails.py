@@ -21,7 +21,7 @@ st.set_page_config(
 st.markdown("""
 <style>
     .stApp {
-        background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+        background: linear-gradient(135deg, #25f7fa 0%, #F3cfe2 100%);
         background-attachment: fixed;
     }
     
@@ -80,7 +80,7 @@ st.markdown("""
     }
     
     .email-subtitle {
-        color: rgba(255, 255, 255, 0.95);
+        color: rgba(5, 25, 255, 0.95);
         font-size: 1.4rem;
         margin-top: 1rem;
     }
@@ -90,7 +90,7 @@ st.markdown("""
         background: white;
         padding: 2.5rem;
         border-radius: 20px;
-        box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+        box-shadow: 0 5px 20px rgba(600, 0, 0, 0.08);
         margin: 2.5rem 0;
     }
     
@@ -128,12 +128,12 @@ st.markdown("""
     
     .step-label {
         font-weight: 700;
-        color: #1f2937;
+        color: #9f2937;
         font-size: 1.1rem;
     }
     
     .step-description {
-        color: #6b7280;
+        color: #1b7280;
         font-size: 0.9rem;
         margin-top: 0.5rem;
     }
@@ -160,7 +160,7 @@ st.markdown("""
         gap: 1.2rem;
         margin-bottom: 2rem;
         padding-bottom: 1.5rem;
-        border-bottom: 2px solid #f3f4f6;
+        border-bottom: 2px solid #93f4f6;
     }
     
     .card-icon {
@@ -228,8 +228,8 @@ st.markdown("""
     
     /* Email Preview moderne */
     .email-preview-container {
-        background: linear-gradient(135deg, #f9fafb 0%, #f3f4f6 100%);
-        border: 2px solid #e5e7eb;
+        background: linear-gradient(135deg, #fafb 0%, #4f6 100%);
+        border: 2px solid #55e7eb;
         border-radius: 20px;
         padding: 2.5rem;
         margin: 2rem 0;
@@ -242,7 +242,7 @@ st.markdown("""
         gap: 1rem;
         margin-bottom: 1.5rem;
         padding-bottom: 1rem;
-        border-bottom: 2px solid #d1d5db;
+        border-bottom: 2px solid #93f4f6;
     }
     
     .preview-icon {
@@ -374,7 +374,7 @@ st.markdown("""
         right: -50%;
         width: 200%;
         height: 200%;
-        background: radial-gradient(circle, rgba(255,255,255,0.2) 0%, transparent 70%);
+        background: radial-gradient(circle, rgba(25,255,255,0.2) 0%, transparent 70%);
         animation: pulse-slow 4s ease-in-out infinite;
     }
     
@@ -393,7 +393,7 @@ st.markdown("""
     }
     
     .send-subtitle {
-        color: rgba(255, 255, 255, 0.95);
+        color: rgba(25, 255, 255, 0.95);
         font-size: 1.2rem;
         margin-bottom: 2rem;
         position: relative;
@@ -402,7 +402,7 @@ st.markdown("""
     
     /* Progress Bar */
     .progress-container {
-        background: rgba(255, 255, 255, 0.2);
+        background: rgba(005, 255, 255, 0.2);
         border-radius: 50px;
         padding: 0.5rem;
         margin: 1rem 0;
@@ -566,7 +566,7 @@ st.markdown("""
 <div class="builder-card">
     <div class="card-header">
         <div class="card-icon">👥</div>
-        <h3 class="card-title">Étape 1 : Sélectionnez vos destinataires</h3>
+        <h3 class="card-title" style="color: #1475ff;">Étape 1 : Sélectionnez vos destinataires</h3>
     </div>
 </div>
 """, unsafe_allow_html=True)
@@ -628,7 +628,7 @@ st.markdown("""
 <div class="builder-card">
     <div class="card-header">
         <div class="card-icon">✍️</div>
-        <h3 class="card-title">Étape 2 : Créez votre message</h3>
+        <h3 class="card-title" style="color: #147>Étape 2 : Créez votre message</h3>
     </div>
 </div>
 """, unsafe_allow_html=True)
@@ -683,7 +683,7 @@ st.markdown("""
 <div class="builder-card">
     <div class="card-header">
         <div class="card-icon">👁️</div>
-        <h3 class="card-title">Étape 3 : Prévisualisez votre email</h3>
+        <h3 class="card-title" style="color: #1475ff;">Étape 3 : Prévisualisez votre email</h3>
     </div>
 </div>
 """, unsafe_allow_html=True)
@@ -811,7 +811,7 @@ st.markdown("""
 <div class="builder-card" style="margin-top: 3rem;">
     <div class="card-header">
         <div class="card-icon">💡</div>
-        <h3 class="card-title">Conseils pour une campagne réussie</h3>
+        <h3 class="card-title" style="color: #1475ff;">Conseils pour une campagne réussie</h3>
     </div>
     <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.5rem;">
         <div style="padding: 1.5rem; background: #f9fafb; border-radius: 12px;">

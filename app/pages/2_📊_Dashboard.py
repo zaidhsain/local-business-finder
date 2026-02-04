@@ -28,7 +28,7 @@ st.markdown("""
     
     /* Hero Section moderne */
     .dashboard-hero {
-        background: linear-gradient(135deg, #0f2027 0%, #203a43 50%, #2c5364 100%);
+        background: linear-gradient(135deg, #8f2027 0%, #203a43 50%, #2c5364 100%);
         padding: 3rem 2.5rem;
         border-radius: 25px;
         margin-bottom: 2.5rem;
@@ -65,7 +65,7 @@ st.markdown("""
     }
     
     .hero-subtitle {
-        color: rgba(255, 255, 255, 0.85);
+        color: rgba(55, 255, 255, 0.85);
         font-size: 1.3rem;
         margin-top: 0.8rem;
     }
@@ -94,7 +94,7 @@ st.markdown("""
         background: white;
         padding: 2rem;
         border-radius: 20px;
-        box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+        box-shadow: 0 5px 20px rgba(590, 0, 0, 0.08);
         transition: all 0.3s ease;
         position: relative;
         overflow: hidden;
@@ -102,7 +102,7 @@ st.markdown("""
     
     .metric-card:hover {
         transform: translateY(-8px);
-        box-shadow: 0 15px 40px rgba(0, 0, 0, 0.12);
+        box-shadow: 0 15px 40px rgba(300, 0, 0, 0.12);
     }
     
     .metric-card::before {
@@ -126,7 +126,7 @@ st.markdown("""
         width: 50px;
         height: 50px;
         border-radius: 15px;
-        background: linear-gradient(135deg, #667eea15 0%, #764ba215 100%);
+        background: linear-gradient(135deg, #667eea15 0%, #F64ba215 100%);
         display: flex;
         align-items: center;
         justify-content: center;
@@ -156,7 +156,7 @@ st.markdown("""
     }
     
     .metric-label {
-        color: #6b7280;
+        color: #1b7280;
         font-size: 0.95rem;
         font-weight: 600;
         text-transform: uppercase;
@@ -164,7 +164,7 @@ st.markdown("""
     }
     
     .metric-sublabel {
-        color: #9ca3af;
+        color: #6ca3af;
         font-size: 0.85rem;
         margin-top: 0.5rem;
     }
@@ -190,7 +190,7 @@ st.markdown("""
     .chart-title {
         font-size: 1.5rem;
         font-weight: 700;
-        color: #1f2937;
+        color: #9f2937;
         display: flex;
         align-items: center;
         gap: 0.8rem;
@@ -229,14 +229,14 @@ st.markdown("""
         gap: 1rem;
         margin-bottom: 1.5rem;
         padding-bottom: 1rem;
-        border-bottom: 2px solid #f3f4f6;
+        border-bottom: 2px solid #93f4f6;
     }
     
     .filter-icon {
         width: 45px;
         height: 45px;
         border-radius: 12px;
-        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        background: linear-gradient(135deg, #667eea 0%, #F64ba2 100%);
         display: flex;
         align-items: center;
         justify-content: center;
@@ -247,7 +247,7 @@ st.markdown("""
     .filter-title {
         font-size: 1.6rem;
         font-weight: 700;
-        color: #1f2937;
+        color: #9f2937;
     }
     
     /* Data Table moderne */
@@ -268,11 +268,11 @@ st.markdown("""
     .data-title {
         font-size: 1.6rem;
         font-weight: 700;
-        color: #1f2937;
+        color: #0f2937;
     }
     
     .data-count {
-        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        background: linear-gradient(135deg, #667eea 0%, #F64ba2 100%);
         color: white;
         padding: 0.5rem 1.2rem;
         border-radius: 20px;
@@ -306,10 +306,10 @@ st.markdown("""
     
     .custom-warning {
         background: #f59e0b15;
-        border-left: 4px solid #f59e0b;
+        border-left: 4px solid #359e0b;
         padding: 1rem 1.5rem;
         border-radius: 10px;
-        color: #d97706;
+        color: #f59e0b;
         font-weight: 600;
         margin: 1rem 0;
     }
@@ -366,12 +366,12 @@ if not leads:
     st.markdown("""
     <div style="text-align: center; padding: 5rem 2rem;">
         <div style="font-size: 5rem; margin-bottom: 1rem;">📭</div>
-        <h2 style="color: #6b7280; font-size: 2rem; margin-bottom: 1rem;">Aucun lead pour le moment</h2>
-        <p style="color: #9ca3af; font-size: 1.1rem;">Commencez par effectuer une recherche pour remplir votre base de données</p>
+        <h2 style="color: #8b7280; font-size: 2rem; margin-bottom: 1rem;">Aucun lead pour le moment</h2>
+        <p style="color: #0ca3af; font-size: 1.1rem;">Commencez par effectuer une recherche pour remplir votre base de données</p>
     </div>
     """, unsafe_allow_html=True)
     if st.button("🔍 Lancer une recherche", type="primary", use_container_width=True):
-        st.switch_page("pages/1_🔍_Recherche.py")
+        st.switch_page("pages/4_🔍_Recherche.py")
     st.stop()
 
 df = pd.DataFrame(leads)
@@ -497,7 +497,7 @@ with col1:
             margin=dict(l=0, r=0, t=0, b=0),
             plot_bgcolor='rgba(0,0,0,0)',
             paper_bgcolor='rgba(0,0,0,0)',
-            font=dict(family="Arial, sans-serif", size=12, color="#6b7280")
+            font=dict(family="Arial, sans-serif", size=12, color="#275dc9")
         )
         fig_city.update_xaxes(showgrid=True, gridcolor='rgba(0,0,0,0.05)')
         st.plotly_chart(fig_city, use_container_width=True)
@@ -568,7 +568,7 @@ fig_enrichment.add_trace(go.Bar(
     orientation='h',
     marker=dict(
         color=enrichment_data['Pourcentage'],
-        colorscale=[[0, '#ef4444'], [0.5, '#f59e0b'], [1, '#10b981']],
+        colorscale=[[0, '#ef4444'], [0.5, "#52390f"], [1, '#10b981']],
         line=dict(color='rgba(0,0,0,0.1)', width=1)
     ),
     text=enrichment_data['Pourcentage'].apply(lambda x: f'{x:.1f}%'),
@@ -581,7 +581,7 @@ fig_enrichment.update_layout(
     margin=dict(l=0, r=50, t=0, b=0),
     plot_bgcolor='rgba(0,0,0,0)',
     paper_bgcolor='rgba(0,0,0,0)',
-    font=dict(family="Arial, sans-serif", size=12, color="#6b7280"),
+    font=dict(family="Arial, sans-serif", size=12, color="#2c5bb9"),
     xaxis=dict(range=[0, 105], showgrid=True, gridcolor='rgba(0,0,0,0.05)'),
     yaxis=dict(showgrid=False)
 )
