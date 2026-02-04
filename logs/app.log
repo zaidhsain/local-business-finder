@@ -1,0 +1,166 @@
+2026-02-01 15:22:51,069 - INFO - Table business créée (si elle n'existait pas)
+2026-02-01 15:22:51,085 - INFO - Business ajouté : Salon Test
+2026-02-01 15:27:53,570 - INFO - Table business créée (si elle n'existait pas)
+2026-02-01 15:27:53,572 - ERROR - Erreur insertion business : UNIQUE constraint failed: business.source_url
+2026-02-01 15:28:07,372 - INFO - Table business créée (si elle n'existait pas)
+2026-02-01 15:28:07,375 - ERROR - Erreur insertion business : UNIQUE constraint failed: business.source_url
+2026-02-01 15:28:12,009 - INFO - Table business créée (si elle n'existait pas)
+2026-02-01 15:28:12,011 - ERROR - Erreur insertion business : UNIQUE constraint failed: business.source_url
+2026-02-01 15:28:54,712 - INFO - Table business créée (si elle n'existait pas)
+2026-02-01 15:28:54,744 - ERROR - Erreur insertion business : UNIQUE constraint failed: business.source_url
+2026-02-01 15:30:16,751 - INFO - Table business créée (si elle n'existait pas)
+2026-02-01 15:30:16,753 - ERROR - Erreur insertion business : UNIQUE constraint failed: business.source_url
+2026-02-01 15:30:21,826 - INFO - Table business créée (si elle n'existait pas)
+2026-02-01 15:30:21,828 - ERROR - Erreur insertion business : UNIQUE constraint failed: business.source_url
+2026-02-01 15:31:02,239 - ERROR - Google Maps API error: REQUEST_DENIED
+2026-02-01 15:35:29,972 - ERROR - Google Maps API error: REQUEST_DENIED
+2026-02-01 16:05:01,859 - INFO - Table business créée (si elle n'existait pas)
+2026-02-01 16:05:38,629 - INFO - Table business créée (si elle n'existait pas)
+2026-02-02 19:04:55,811 - INFO - Table business créée (si elle n'existait pas)
+2026-02-02 19:04:57,551 - INFO - Table business créée (si elle n'existait pas)
+2026-02-02 19:05:23,165 - INFO - Table business créée (si elle n'existait pas)
+2026-02-02 19:05:26,832 - INFO - Table business créée (si elle n'existait pas)
+2026-02-02 19:05:28,624 - INFO - Table business créée (si elle n'existait pas)
+2026-02-02 19:05:31,130 - INFO - Table business créée (si elle n'existait pas)
+2026-02-02 20:02:51,887 - INFO - Table business créée (si elle n'existait pas)
+2026-02-02 20:02:57,240 - INFO - Table business créée (si elle n'existait pas)
+2026-02-02 20:03:03,933 - INFO - Table business créée (si elle n'existait pas)
+2026-02-02 20:03:04,783 - INFO - Table business créée (si elle n'existait pas)
+2026-02-02 20:03:05,680 - INFO - Table business créée (si elle n'existait pas)
+2026-02-02 20:03:07,617 - ERROR - Google Maps API error: REQUEST_DENIED
+2026-02-02 20:03:07,622 - INFO - 0 business enrichis et ajoutés à la DB
+2026-02-02 20:07:47,680 - INFO - Table business créée (si elle n'existait pas)
+2026-02-02 20:07:56,818 - INFO - Table business créée (si elle n'existait pas)
+2026-02-02 20:13:03,843 - INFO - Table business créée (si elle n'existait pas)
+2026-02-02 20:20:42,278 - INFO - Table business créée (si elle n'existait pas)
+2026-02-02 20:20:53,335 - INFO - Table business créée (si elle n'existait pas)
+2026-02-02 20:21:00,477 - INFO - Table business créée (si elle n'existait pas)
+2026-02-02 20:21:04,479 - INFO - Table business créée (si elle n'existait pas)
+2026-02-02 20:21:04,758 - INFO - Table business créée (si elle n'existait pas)
+2026-02-02 20:21:06,410 - ERROR - Google Maps API error: REQUEST_DENIED
+2026-02-02 20:21:06,415 - INFO - 0 business enrichis et ajoutés à la DB
+2026-02-02 21:44:36,087 - INFO - Table business créée (si elle n'existait pas)
+2026-02-03 13:35:04,202 - INFO - Tables créées avec succès !
+2026-02-03 13:38:54,579 - INFO - Tables créées avec succès !
+2026-02-03 13:38:56,461 - INFO - Utilisateur créé: admin
+2026-02-03 13:49:25,089 - INFO - Tables créées avec succès !
+2026-02-03 13:51:02,932 - INFO - Tables créées avec succès !
+2026-02-03 13:51:11,216 - INFO - Tables créées avec succès !
+2026-02-03 13:51:40,654 - INFO - Tables créées avec succès !
+2026-02-03 13:51:40,881 - INFO - Tables créées avec succès !
+2026-02-03 13:51:54,369 - INFO - Tables créées avec succès !
+2026-02-03 13:51:57,139 - INFO - Tables créées avec succès !
+2026-02-03 13:53:43,019 - INFO - Tables créées avec succès !
+2026-02-03 13:53:47,514 - INFO - Tables créées avec succès !
+2026-02-03 13:53:49,873 - INFO - Tables créées avec succès !
+2026-02-03 13:53:51,047 - INFO - Tables créées avec succès !
+2026-02-03 13:53:58,402 - INFO - Tables créées avec succès !
+2026-02-03 13:54:58,689 - INFO - Tables créées avec succès !
+2026-02-03 13:54:58,920 - INFO - Tables créées avec succès !
+2026-02-03 14:54:12,522 - INFO - Tables créées avec succès !
+2026-02-03 14:54:16,460 - INFO - Tables créées avec succès !
+2026-02-03 14:57:07,787 - INFO - Tables créées avec succès !
+2026-02-03 14:57:12,376 - INFO - Tables créées avec succès !
+2026-02-03 14:57:17,439 - INFO - Tables créées avec succès !
+2026-02-03 14:57:17,712 - INFO - Tables créées avec succès !
+2026-02-03 14:58:03,733 - INFO - Tables créées avec succès !
+2026-02-03 14:58:16,555 - INFO - Tables créées avec succès !
+2026-02-03 15:00:44,144 - INFO - Tables créées avec succès !
+2026-02-03 15:00:50,103 - INFO - Tables créées avec succès !
+2026-02-03 15:00:53,875 - INFO - Tables créées avec succès !
+2026-02-03 15:00:54,120 - INFO - Tables créées avec succès !
+2026-02-03 15:01:16,260 - INFO - Tables créées avec succès !
+2026-02-03 15:01:19,838 - INFO - Tables créées avec succès !
+2026-02-03 15:01:22,742 - INFO - Tables créées avec succès !
+2026-02-03 15:17:49,949 - INFO - Tables créées avec succès !
+2026-02-03 15:27:07,238 - INFO - Tables créées avec succès !
+2026-02-03 15:27:12,239 - INFO - Tables créées avec succès !
+2026-02-03 15:27:16,215 - INFO - Tables créées avec succès !
+2026-02-03 15:27:16,435 - INFO - Tables créées avec succès !
+2026-02-03 15:31:26,063 - INFO - Tables créées avec succès !
+2026-02-03 15:49:27,991 - INFO - Tables créées avec succès !
+2026-02-03 15:49:47,617 - INFO - Tables créées avec succès !
+2026-02-03 15:50:04,279 - INFO - Tables créées avec succès !
+2026-02-03 15:50:17,612 - INFO - Tables créées avec succès !
+2026-02-03 15:50:17,770 - INFO - Tables créées avec succès !
+2026-02-03 15:50:27,324 - INFO - Tables créées avec succès !
+2026-02-03 16:02:54,880 - INFO - Tables créées avec succès !
+2026-02-03 16:02:59,405 - INFO - Tables créées avec succès !
+2026-02-03 16:07:10,343 - INFO - Tables créées avec succès !
+2026-02-03 21:28:14,076 - INFO - Tables créées avec succès !
+2026-02-03 21:41:20,780 - INFO - Tables créées avec succès !
+2026-02-03 21:42:08,869 - INFO - Tables créées avec succès !
+2026-02-03 21:42:09,155 - INFO - Tables créées avec succès !
+2026-02-03 21:42:30,898 - INFO - Tables créées avec succès !
+2026-02-03 21:45:21,370 - INFO - Tables créées avec succès !
+2026-02-03 21:52:34,731 - INFO - Tables créées avec succès !
+2026-02-03 21:53:27,641 - INFO - Tables créées avec succès !
+2026-02-03 21:53:35,950 - INFO - Tables créées avec succès !
+2026-02-03 21:53:36,237 - INFO - Tables créées avec succès !
+2026-02-03 22:36:35,176 - INFO - Tables créées avec succès !
+2026-02-03 22:36:39,397 - INFO - Tables créées avec succès !
+2026-02-03 22:37:49,481 - INFO - Tables créées avec succès !
+2026-02-03 22:37:49,691 - INFO - Tables créées avec succès !
+2026-02-03 22:41:11,264 - INFO - Tables créées avec succès !
+2026-02-03 22:41:12,780 - INFO - Tables créées avec succès !
+2026-02-03 22:41:14,723 - INFO - Tables créées avec succès !
+2026-02-03 22:41:33,889 - INFO - Tables créées avec succès !
+2026-02-03 22:41:43,103 - INFO - Tables créées avec succès !
+2026-02-03 22:41:43,395 - INFO - Tables créées avec succès !
+2026-02-03 22:41:53,957 - INFO - Tables créées avec succès !
+2026-02-03 22:43:33,227 - INFO - Tables créées avec succès !
+2026-02-03 22:43:34,589 - INFO - Tables créées avec succès !
+2026-02-03 22:44:04,077 - INFO - Tables créées avec succès !
+2026-02-03 22:44:04,372 - INFO - Tables créées avec succès !
+2026-02-03 22:45:55,283 - INFO - Tables créées avec succès !
+2026-02-03 22:46:04,195 - INFO - Tables créées avec succès !
+2026-02-03 22:46:04,387 - INFO - Tables créées avec succès !
+2026-02-03 22:47:54,502 - INFO - Tables créées avec succès !
+2026-02-03 22:50:08,889 - INFO - Tables créées avec succès !
+2026-02-03 22:50:20,081 - INFO - Tables créées avec succès !
+2026-02-03 22:50:21,715 - INFO - Tables créées avec succès !
+2026-02-03 22:50:21,968 - INFO - Tables créées avec succès !
+2026-02-03 22:50:22,213 - INFO - Tables créées avec succès !
+2026-02-03 22:50:36,089 - INFO - Tables créées avec succès !
+2026-02-03 22:50:37,611 - INFO - Tables créées avec succès !
+2026-02-03 22:52:20,116 - INFO - Tables créées avec succès !
+2026-02-04 12:01:57,415 - INFO - Tables créées avec succès !
+2026-02-04 12:02:05,764 - INFO - Tables créées avec succès !
+2026-02-04 12:02:18,508 - INFO - Tables créées avec succès !
+2026-02-04 12:02:18,773 - INFO - Tables créées avec succès !
+2026-02-04 12:02:42,168 - INFO - Tables créées avec succès !
+2026-02-04 12:03:28,205 - INFO - Tables créées avec succès !
+2026-02-04 12:04:10,063 - INFO - Tables créées avec succès !
+2026-02-04 12:04:21,276 - INFO - Tables créées avec succès !
+2026-02-04 12:04:21,530 - INFO - Tables créées avec succès !
+2026-02-04 12:04:46,154 - INFO - Tables créées avec succès !
+2026-02-04 12:05:01,502 - ERROR - Google Maps API error: REQUEST_DENIED
+2026-02-04 12:05:01,507 - INFO - 0 business enrichis et ajoutés à la DB
+2026-02-04 12:10:17,871 - INFO - Tables créées avec succès !
+2026-02-04 12:10:24,717 - INFO - Tables créées avec succès !
+2026-02-04 12:10:25,041 - INFO - Tables créées avec succès !
+2026-02-04 12:10:35,940 - INFO - Tables créées avec succès !
+2026-02-04 12:11:03,550 - INFO - Tables créées avec succès !
+2026-02-04 12:11:18,460 - INFO - Tables créées avec succès !
+2026-02-04 12:17:44,468 - INFO - Tables créées avec succès !
+2026-02-04 12:18:02,667 - INFO - Tables créées avec succès !
+2026-02-04 12:18:05,100 - INFO - Tables créées avec succès !
+2026-02-04 12:24:23,478 - INFO - Tables créées avec succès !
+2026-02-04 12:24:31,572 - INFO - Tables créées avec succès !
+2026-02-04 12:24:31,793 - INFO - Tables créées avec succès !
+2026-02-04 12:24:36,884 - INFO - Tables créées avec succès !
+2026-02-04 12:25:11,007 - INFO - Tables créées avec succès !
+2026-02-04 12:25:25,475 - ERROR - Erreur envoi email à test@example.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 5b1f17b1804b1-48310919211sm54901005e9.11 - gsmtp')
+2026-02-04 15:08:01,992 - INFO - Tables créées avec succès !
+2026-02-04 15:08:37,456 - INFO - Tables créées avec succès !
+2026-02-04 15:08:37,680 - INFO - Tables créées avec succès !
+2026-02-04 15:21:33,792 - INFO - Tables créées avec succès !
+2026-02-04 15:37:48,576 - INFO - Tables créées avec succès !
+2026-02-04 15:39:25,760 - INFO - Tables créées avec succès !
+2026-02-04 15:39:34,393 - INFO - Tables créées avec succès !
+2026-02-04 15:40:03,792 - ERROR - Google Maps API error: REQUEST_DENIED
+2026-02-04 15:40:03,794 - INFO - 0 business enrichis et ajoutés à la DB
+2026-02-04 15:40:38,129 - ERROR - Erreur envoi email à test@example.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 5b1f17b1804b1-4830fe9ddcasm20076025e9.12 - gsmtp')
+2026-02-04 15:40:49,783 - INFO - Tables créées avec succès !
+2026-02-04 15:41:45,018 - INFO - Utilisateur créé: zaid
+2026-02-04 15:41:54,570 - INFO - Tables créées avec succès !

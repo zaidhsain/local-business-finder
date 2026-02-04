@@ -7,9 +7,7 @@ __pycache__/
 .streamlit/secrets.toml
 
 # Base de données & logs
-data/*.db
-logs/*.log
+
 
 # Variables d'environnement
 .env
-settings.py
